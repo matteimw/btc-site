@@ -116,3 +116,10 @@ That's it — Baldwin Terney Consulting is live.
   price sheet. Review names, scope bullets, and timelines before publishing, and add real
   pricing if you want it shown (none is listed currently, matching the current live site).
 - Phone number and email are wired from the live site's public contact info.
+- The "Solution Architecture &amp; Integration Advisory" group (`#integration` on
+  `services.html`, fourth card on the homepage) positions Baldwin Terney as an independent
+  integrator of specialized security vendors (e.g. firms like Olympus Cyber and Cyber
+  Crucible) rather than a reseller or formal partner of any named vendor. If a real
+  partner/reseller/referral agreement is signed with any vendor, update that copy to use
+  "partner" language and add any required compensation disclosure — check with counsel
+  before doing so.
