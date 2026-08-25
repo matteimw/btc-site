@@ -7,22 +7,38 @@ const SITE_CONFIG = {
   phone: "+1 (480) 331-5068",
   phoneDisplay: "(480) 331-5068",
   calendlyUrl: "mailto:mark@baldwinterneyconsulting.com?subject=Let's%20talk%20-%20Baldwin%20Terney%20Consulting",
-  linkedinUrl: "https://www.linkedin.com/",
+  linkedinUrl: "https://www.linkedin.com/in/mark-w-mattei-7237908/",
   amazonAuthorBooks: [
     {
-      title: "Managed Security Buyer's Guide — Issue 1",
-      url: "https://www.amazon.com/Managed-Security-Buyers-Guide-Issue-ebook/dp/B0HBLBYS2C/",
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 1",
+      url: "https://amzn.to/4yNBxT3",
     },
     {
-      title: "Managed Security Buyer's Guide — Issue 2",
-      url: "https://www.amazon.com/Managed-Security-Buyers-Guide-Issue-ebook/dp/B0HB3SCZFN/",
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 2",
+      url: "https://amzn.to/3Tp7VLO",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 3",
+      url: "https://amzn.to/4fPOMdx",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 4",
+      url: "https://amzn.to/4fVnNi1",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 5",
+      url: "https://amzn.to/4gdbyfv",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 6",
+      url: "https://amzn.to/3UgDLdY",
     },
   ],
 };
 
 const NAV_LINKS = [
   { href: "index.html", label: "Home" },
-  { href: "services.html", label: "Services" },
   { href: "about.html", label: "About" },
+  { href: "books-articles.html", label: "Books & Articles" },
   { href: "contact.html", label: "Contact" },
 ];

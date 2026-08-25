@@ -24,7 +24,7 @@ function renderHeader() {
         <span class="brand-mark">BT</span>
         <span>
           Baldwin Terney Consulting
-          <small>MSSP &amp; Critical Infrastructure Advisory</small>
+          <small>Critical Infrastructure Managed Services Cybersecurity Advisory and Consulting</small>
         </span>
       </a>
       <nav class="main-nav" id="main-nav">${links}</nav>
@@ -57,7 +57,6 @@ function renderFooter() {
       </div>
       <div class="footer-links">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="mailto:${SITE_CONFIG.contactEmail}">${SITE_CONFIG.contactEmail}</a>
@@ -76,5 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-phone]").forEach((el) => {
     el.href = `tel:${SITE_CONFIG.phone.replace(/[^\d+]/g, "")}`;
     if (el.dataset.phone === "text") el.textContent = SITE_CONFIG.phoneDisplay;
+  });
+  document.querySelectorAll("[data-linkedin]").forEach((el) => {
+    el.href = SITE_CONFIG.linkedinUrl;
   });
 });

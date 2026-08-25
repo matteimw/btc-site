@@ -10,12 +10,16 @@ index.html            Home page — hero, three audiences, why us, process, book
 services.html          All engagement packages in one page: MSSP Buyers, Critical
                         Infrastructure Operators, MSSP/MDR/XDR Providers, and retainers
 about.html              Mark Mattei's bio, career timeline, and published guides
+books-articles.html      All 5 issues of Managed Security Buyers Guide News and
+                        press/podcast/video appearances
 contact.html            Contact details + "before you reach out" checklist
 CNAME                    Tells GitHub Pages this site should answer to
                         www.baldwinterneyconsulting.com
 assets/css/style.css    All site styling — colors/fonts are CSS variables at the top
 assets/js/config.js      Contact email, phone, and nav links — edit this first
 assets/js/main.js        Renders the shared header/footer/mobile nav on every page
+assets/images/books/     Book cover images used on the home, about, and
+                        books-articles pages
 ```
 
 No build step, no npm, no dependencies — it works as-is on GitHub Pages.
@@ -108,8 +112,25 @@ That's it — Baldwin Terney Consulting is live.
 
 ## Content notes
 
-- Bio, background, and published guides came from the current baldwinterneyconsulting.com
-  site and the two *Managed Security Buyer's Guide* titles on Amazon.
+- Bio and background came from the current baldwinterneyconsulting.com site.
+- `books-articles.html` covers two things: the 5 published issues of *Managed Security
+  Buyers Guide News* (Vol. 1, Issues 1–5 — titles, descriptions, and cover art pulled from
+  the manuscripts/metadata in the "MSSP Buyers guide" folder), and 5 press/podcast/video
+  appearances (titles and summaries pulled from the linked pages directly; the IIoT World
+  article's byline shown is the 1898 & Co. Advanced Threat Protection Center Mark founded,
+  since the article itself doesn't carry a Mark Mattei byline — double-check that framing
+  reads the way you want).
+- *The Machines That Let Themselves In* is intentionally **left off the site for now** —
+  its KDP Cover Creator cover can't be downloaded/reused outside Amazon per KDP's own
+  message, so it's on hold until there's a cover Mark has clear rights to use off-platform
+  (either a custom-designed one or KDP support confirming reuse is fine). A generated
+  placeholder cover for it still sits unused at
+  `assets/images/books/machines-that-let-themselves-in-cover.jpg` — safe to delete, or
+  reference again if the book gets added back later.
+- The Amazon links used throughout (home, about, and books-articles pages) are the amzn.to
+  short links Mark provided. `assets/js/config.js`'s `amazonAuthorBooks` list has all 5
+  issues for reference, though nothing currently reads that array automatically — it's
+  there if you want to loop over it in a future update.
 - The engagement packages on `services.html` (RFP Readiness Sprint, Proposal &amp; Vendor
   Evaluation Review, OT Security Posture Assessment, etc.) are **drafted, packaged
   offerings** based on the service areas in your brief — not pulled from a pre-existing
