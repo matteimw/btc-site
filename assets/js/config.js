@@ -33,6 +33,10 @@ const SITE_CONFIG = {
       title: "Managed Security Buyers Guide News — Vol. 1, Issue 6",
       url: "https://amzn.to/3UgDLdY",
     },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 7",
+      url: "https://amzn.to/3UtaL2L",
+    },
   ],
 };
 
