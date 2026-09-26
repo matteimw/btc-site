@@ -41,6 +41,18 @@ const SITE_CONFIG = {
       title: "Managed Security Buyers Guide News — Vol. 1, Issue 8",
       url: "https://amzn.to/4xNKY4k",
     },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 9",
+      url: "https://link.amazon/B05c5TR3Y",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 10",
+      url: "https://link.amazon/B0hkSmy9B",
+    },
+    {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 11",
+      url: "https://link.amazon/B0eXs726k",
+    },
   ],
 };
 
