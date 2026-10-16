@@ -501,6 +501,27 @@ a:hover { color: var(--accent-strong); }
   letter-spacing: 0.03em;
 }
 .book-card.news-issue h4 { margin-bottom: 6px; }
+/* New Releases (books-articles.html) — retailer buttons match BaldwinTerneyPress.com */
+.release-grid { align-items: stretch; }
+.release-col { display: flex; flex-direction: column; }
+.release-head { margin-bottom: 12px; }
+.release-head .eyebrow { margin-bottom: 4px; }
+.release-head h3 { margin: 0; }
+.book-card.release-card { flex: 1; align-items: flex-start; }
+.book-card.release-card h4 { margin-bottom: 8px; }
+.buy-btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+.btn-amazon { background: #f0a731; color: #10233a; border-color: #f0a731; }
+.btn-amazon:hover { background: #e0961f; border-color: #e0961f; color: #10233a; }
+.btn-spotify { background: #1ed760; color: #121212; border-color: #1ed760; }
+.btn-spotify:hover { background: #1db954; border-color: #1db954; color: #121212; }
+.btn-ingram { background: #4a7c4e; color: #fff; border-color: #4a7c4e; }
+.btn-ingram:hover { background: #3a6340; border-color: #3a6340; color: #fff; }
+.ingram-section { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.ingram-label { font-size: 0.75rem; color: var(--text-faint); font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; margin-bottom: 8px; }
+.ingram-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+@media (max-width: 640px) {
+  .book-card.release-card { flex-direction: column; }
+}
 .media-card .media-kind {
   font-size: 0.76rem;
   color: var(--accent);
