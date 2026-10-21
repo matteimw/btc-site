@@ -69,6 +69,14 @@ const SITE_CONFIG = {
       title: "The Small Business Guide to Hiring an AI Engineer",
       url: "https://link.amazon/B0ctXjJWY",
     },
+    {
+      title: "AI Automation for Small Business Owners: A Security Practitioner's No-Code Guide to Using AI Assistants Safely",
+      url: "https://link.amazon/B0fzap6Wg",
+    },
+    {
+      title: "AI for Parents: A Security Expert's Guide to Family Finances, School, Schedules, and Keeping Kids Safe",
+      url: "https://link.amazon/B04p5kC7z",
+    },
   ],
 };
 

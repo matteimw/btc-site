@@ -502,12 +502,13 @@ a:hover { color: var(--accent-strong); }
 }
 .book-card.news-issue h4 { margin-bottom: 6px; }
 /* New Releases (books-articles.html) — retailer buttons match BaldwinTerneyPress.com */
-.release-grid { align-items: stretch; }
+.release-grid { align-items: start; }
 .release-col { display: flex; flex-direction: column; }
 .release-head { margin-bottom: 12px; }
 .release-head .eyebrow { margin-bottom: 4px; }
 .release-head h3 { margin: 0; }
-.book-card.release-card { flex: 1; align-items: flex-start; }
+.book-card.release-card { align-items: flex-start; }
+.release-col .book-card.release-card + .book-card.release-card { margin-top: 14px; }
 .book-card.release-card h4 { margin-bottom: 8px; }
 .buy-btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
 .btn-amazon { background: #f0a731; color: #10233a; border-color: #f0a731; }
