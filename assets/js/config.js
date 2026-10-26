@@ -88,5 +88,6 @@ const NAV_LINKS = [
   { href: "index.html", label: "Home" },
   { href: "about.html", label: "About" },
   { href: "books-articles.html", label: "Books & Articles" },
+  { href: "book-reviews.html", label: "Reviews" },
   { href: "contact.html", label: "Contact" },
 ];

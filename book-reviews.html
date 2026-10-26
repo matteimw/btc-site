@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book Reviews — Baldwin Terney Consulting</title>
+<meta name="description" content="Mark W. Mattei's reviews of books on OT/ICS security, industrial incident response, and buying and running managed security services." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2335c4e8%22/><text x=%2250%22 y=%2266%22 font-size=%2246%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22800%22 fill=%22%2304121a%22>BT</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  /* Book Reviews page only */
+  .review-list { display: flex; flex-direction: column; gap: 20px; }
+  .book-card.review-card { align-items: flex-start; gap: 26px; padding: 26px; }
+  .review-card .review-author { color: var(--text-faint); font-size: 0.9rem; margin: -2px 0 14px; }
+  .review-card h5 {
+    font-family: var(--font-heading); font-size: 0.78rem; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--text-faint); margin: 14px 0 6px;
+  }
+  .review-card p { font-size: 0.93rem; }
+  .mark-take {
+    border-left: 3px solid var(--accent); background: var(--accent-dim);
+    padding: 12px 16px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 14px;
+  }
+  .mark-take h5 { margin-top: 0; color: var(--accent); }
+  .mark-take p { margin: 0; color: var(--text); }
+  .best-for { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .best-for span {
+    font-size: 0.78rem; color: var(--text-muted); border: 1px solid var(--border-light);
+    border-radius: 999px; padding: 3px 11px;
+  }
+  @media (max-width: 640px) {
+    .book-card.review-card { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="site-header"></header>
+
+<main id="main">
+
+  <section class="hero" style="padding:28px 0 20px;">
+    <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+      <div>
+        <span class="hero-badge" style="margin-bottom:8px;">On the Shelf</span>
+        <h1 style="margin-bottom:0; font-size:clamp(1.6rem, 3vw, 2.2rem);">Book reviews</h1>
+      </div>
+      <div class="hero-cta" style="margin-top:0;">
+        <a class="btn btn-outline btn-sm" href="books-articles.html">Mark's own books &amp; articles</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews" style="padding-top:28px;">
+    <div class="section-head" style="margin-bottom:18px;">
+      <div>
+        <div class="eyebrow">Recommended Reading</div>
+        <h2 style="margin-bottom:6px;">Books worth your time</h2>
+        <p>Reviews from the operator's side of the table: OT/ICS security, industrial incident response, and buying and running managed security services.</p>
+      </div>
+    </div>
+
+    <div class="review-list">
+
+      <!-- Review 1 -->
+      <article class="book-card review-card" id="industrial-cybersecurity">
+        <img class="book-thumb book-thumb-lg" src="https://m.media-amazon.com/images/I/71B4Og+zzVL._SY342_.jpg" alt="Cover: Industrial Cybersecurity, Second Edition, by Pascal Ackerman" loading="lazy" />
+        <div>
+          <div class="issue-tag">OT/ICS Security · Packt · 2nd Ed., 2021</div>
+          <h4>Industrial Cybersecurity: Efficiently Monitor the Cybersecurity Posture of Your ICS Environment</h4>
+          <div class="review-author">by Pascal Ackerman</div>
+
+          <h5>About the book</h5>
+          <p>An 800-page, hands-on guide to building and monitoring security for industrial control system environments. It starts with security-oriented architecture, including the updated Industrial Demilitarized Zone (IDMZ) design, and moves through monitoring, tracking and trending of ICS risk, threat hunting, and security assessments, then shows how to verify that the whole program is working.</p>
+
+          <div class="mark-take">
+            <h5>Mark's take</h5>
+            <p>If you run, or are about to buy, OT intrusion detection, this is the book to read first. Ackerman starts with architecture and the IDMZ before he gets to tools, which is the right order. Monitoring only works when the network was segmented with visibility in mind. It's long, but it's a reference you'll keep coming back to.</p>
+          </div>
+
+          <div class="best-for">
+            <span>Critical infrastructure operators</span>
+            <span>OT/ICS security engineers</span>
+            <span>SOC teams adding OT coverage</span>
+          </div>
+
+          <div class="buy-btns">
+            <a class="btn btn-amazon btn-sm" href="https://link.amazon/B03lATeuf" target="_blank" rel="nofollow sponsored noopener">🛒 Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Review 2 -->
+      <article class="book-card review-card" id="incident-management-ics">
+        <img class="book-thumb book-thumb-lg" src="https://m.media-amazon.com/images/I/81FYsRc1T9L._SY342_.jpg" alt="Cover: Incident Management for Industrial Control Systems, by Durgesh Kalya" loading="lazy" />
+        <div>
+          <div class="issue-tag">Incident Response · Packt · 2026</div>
+          <h4>Incident Management for Industrial Control Systems: Safeguard Industrial Control Systems by Mastering Critical Infrastructure Cybersecurity</h4>
+          <div class="review-author">by Durgesh Kalya</div>
+
+          <h5>About the book</h5>
+          <p>A practical guide to incident response for Industrial Automation and Control Systems (IACS) in critical infrastructure, drawn from nearly two decades of the author's experience. It covers the OT threat landscape, incident command systems and emergency operations, the frameworks and compliance standards involved, government reporting, and how to design drills, scenarios, and exercises that build real incident readiness.</p>
+
+          <div class="mark-take">
+            <h5>Mark's take</h5>
+            <p>OT incidents are run as much by operations and emergency management as by the security team. This book treats them that way. The material on incident command structure, exercises, and government reporting is what most IT-centric IR plans are missing. A strong companion for anyone writing or testing an OT incident response plan with an MSSP or MDR provider.</p>
+          </div>
+
+          <div class="best-for">
+            <span>Utility &amp; plant operators</span>
+            <span>OT incident responders</span>
+            <span>MSSP/MDR teams serving CI</span>
+          </div>
+
+          <div class="buy-btns">
+            <a class="btn btn-amazon btn-sm" href="https://link.amazon/B00oKpcKX" target="_blank" rel="nofollow sponsored noopener">🛒 Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Review 3 -->
+      <article class="book-card review-card" id="mssp-complete-guide">
+        <img class="book-thumb book-thumb-lg" src="https://m.media-amazon.com/images/I/41knSqOWswL._SY342_.jpg" alt="Cover: MSSP A Complete Guide, 2021 Edition, by The Art of Service" loading="lazy" />
+        <div>
+          <div class="issue-tag">Managed Security Services · The Art of Service · 2021 Ed.</div>
+          <h4>MSSP A Complete Guide — 2021 Edition</h4>
+          <div class="review-author">by The Art of Service — MSSP Publishing</div>
+
+          <h5>About the book</h5>
+          <p>A self-assessment workbook rather than a narrative guide. It presents hundreds of MSSP-specific questions organized into seven criteria (Recognize, Define, Measure, Analyze, Improve, Control, Sustain). You score each one on a five-point scale to build a scorecard of strengths and gaps in an MSSP service model. Purchase also includes a downloadable toolkit of templates, checklists, and assessments.</p>
+
+          <div class="mark-take">
+            <h5>Mark's take</h5>
+            <p>Treat this as a question bank, not a playbook. It won't tell you what a good MSSP looks like, but it's a useful way to make sure your RFP, your provider reviews, or your own service design haven't skipped a category. Pair it with real-world guidance on scoping, pricing, and outcomes. That gap is exactly what the Managed Security Buyers Guide series is written to fill.</p>
+          </div>
+
+          <div class="best-for">
+            <span>MSSP buyers drafting RFPs</span>
+            <span>MSSP/MDR service owners</span>
+            <span>Vendor-management teams</span>
+          </div>
+
+          <div class="buy-btns">
+            <a class="btn btn-amazon btn-sm" href="https://link.amazon/B054VZ98G" target="_blank" rel="nofollow sponsored noopener">🛒 Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <p style="font-size:0.82rem; color:var(--text-faint); margin-top:14px;">As an Amazon Associate, Mark earns from qualifying purchases. Cover images courtesy of Amazon.</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="contact-box">
+      <h2>Reading is the start. Applying it to your environment is the work.</h2>
+      <p>Whether you're buying OT monitoring, writing an incident response plan, or evaluating an MSSP, Baldwin Terney Consulting brings an operator's view to your specific situation.</p>
+      <div class="contact-methods">
+        <a class="btn btn-primary" href="contact.html">Book a Consult</a>
+        <a class="btn btn-outline" href="books-articles.html">Read Mark's books</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
