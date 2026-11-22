@@ -82,6 +82,10 @@ const SITE_CONFIG = {
       url: "https://link.amazon/B03KHcBgo",
     },
     {
+      title: "Managed Security Buyers Guide News — Vol. 1, Issue 19",
+      url: "https://link.amazon/B00Caykoo",
+    },
+    {
       title: "The Small Business Guide to Hiring an AI Engineer",
       url: "https://link.amazon/B0ctXjJWY",
     },
